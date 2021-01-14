@@ -1,0 +1,23 @@
+# Make a Query to a DynamoDB Table
+action:
+  name: query-dynamo
+  table: TABLE_NAME
+  key: PRIMARY_KEY_NAME
+  value: PRIMARY_KEY_VALUE
+  return_key: KEY_NAME # Return this key's value from query
+
+# Insert to DynamoDB Table
+action:
+  name: insert-dynamo
+  table: TABLE_NAME
+  items: ... # Map of items to insert into dynamodb table
+
+# Utilize REST APIs
+action:
+  name: call-rest
+  endpoint: URL
+  method: get|post|put|delete
+  # additional information can be mapped
+
+
+  

@@ -1,0 +1,77 @@
+# lex_config.yml
+# Lex Builder Lambda uses this file to generate a Lex bot and its associated files
+
+config:
+    bot_name: Test_Help_Bot
+    intents:
+        - name: HelpMe
+          sample_utterances:
+            - I need help
+            - help
+          tree:
+            - prompt: How can I help you today?
+              branch:
+                - option: make a request
+                  prompt: What would you like to request?
+                  branch:
+                    - option: access
+                      prompt: To which of the following would you like access?
+                      branch:
+                        - option: microstrategy
+                          fulfillment: asdf
+                        - option: image rights
+                          fulfillment: message
+                        - option: security group
+                          fulfillment: message
+                        - option: distribution list
+                          fulfillment: message
+                    - name: SoftwareType
+                      option: software
+                      prompt: What software are you looking to request?
+                      branch:
+                        - option: nvision
+                          fulfillment: message
+                        - option: teams
+                          fulfillment: message
+                        - option: ImageRight
+                          prompt: Do you need ImageRight for Citrix or Local Client?
+                          branch:
+                            - option: local client
+                              fulfillment: message
+                            - option: citrix
+                              fulfillment: message
+                        - option: fuze
+                          fulfillment: Here's the link to download FUZE <link>
+                    - name: HardwareType
+                      option: hardware
+                      prompt: What hardware are you looking to request?
+                      branch:
+                        - option: server
+                          fulfillment: message
+                        - option: request equipment
+                          prompt: What equipment would you like to request?
+                          branch:
+                            - option: mouse
+                              fulfillment: message
+                            - option: keyboard
+                              fulfillment: message
+                            - option: printer
+                              fulfillment: message
+                            - option: monitor
+                              fulfillment: message
+                            - option: laptop
+                              fulfillment: message
+                - option: password help
+                  prompt: Which of the following would you like to do?
+                  branch:
+                    - option: unlock
+                      fulfillment: message
+                    - option: reset
+                      prompt: Are you remote or in office?
+                      branch:
+                        - option: remote
+                          fulfillment: message
+                        - option: in office
+                          fulfillment: in office
+                - option: IT help
+                  fulfillment: Please contact the Service Desk for IT help. Thank you!
