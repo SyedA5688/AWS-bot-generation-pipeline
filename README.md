@@ -18,12 +18,17 @@ Youtube: https://www.youtube.com/watch?v=EfDlcgntEl0&t=7s
 
 This project was developed for the HP & AWS bot-a-thon competition. The project placed 1st
 overall.
+![HP Botathon Certificate](/assets/HP_certificate.png)
+
+# Bot pipeline architecture
+![Bot pipeline architecture](/assets/bot_architecture_diagram.png)
 
 # AWS Services Used
 - AWS Lex
 - AWS Lambda
 - DynamoDB
 - S3 bucket instances
+
 
 # Contributors to the project:
 - Nykolas Farhangi
