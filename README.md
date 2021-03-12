@@ -22,8 +22,8 @@ information specialists and customer service agents.
 # Link to Demo Video
 Youtube: https://www.youtube.com/watch?v=EfDlcgntEl0&t=7s
 
-This project was developed for the HP & AWS bot-a-thon competition. The project placed 1st
-overall.
+This project was developed for the HP & AWS bot-a-thon competition. The project placed 1st overall.
+
 ![HP Botathon Certificate](/assets/HP_certificate.png)
 
 # Bot pipeline architecture
