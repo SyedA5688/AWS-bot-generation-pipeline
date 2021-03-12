@@ -13,6 +13,12 @@ in areas such as information retrieval and transaction processing. Utilizing cha
 can help business improve their margins and avoid cost and resource overhead from maintaining
 information specialists and customer service agents.
 
+# Botathon Team
+- Nykolas Farhangi
+- Syed Rizvi
+- Muhammad Usman
+- Ross Koepke
+
 # Link to Demo Video
 Youtube: https://www.youtube.com/watch?v=EfDlcgntEl0&t=7s
 
@@ -28,10 +34,3 @@ overall.
 - AWS Lambda
 - DynamoDB
 - S3 bucket instances
-
-
-# Contributors to the project:
-- Nykolas Farhangi
-- Syed Rizvi
-- Muhammad Usman
-- Ross Koepke
